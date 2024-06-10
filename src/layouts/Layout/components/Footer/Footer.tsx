@@ -17,11 +17,11 @@ export const Footer = () => {
           rel='noopener noreferrer nofollow'
           target='_blank'
           className='d-flex align-items-center text-neutral-400'
-          href='https://multiversx.com/'
+          href='https://midaschain.ai/'
         >
           Made with{' '}
           <FontAwesomeIcon icon={faHeart} className='text-danger mx-1' />
-          by the MultiversX team
+          by the Midas.X.Blockchain team
         </a>
       </div>
       {explorerVersion && (

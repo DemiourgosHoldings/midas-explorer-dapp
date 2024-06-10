@@ -27,7 +27,7 @@ const CustomCursor = (props: any) => {
           y2={y2}
           gradientUnits='userSpaceOnUse'
         >
-          <stop stopColor='#23F7DD' offset='0' />
+          <stop stopColor='#f5b863' offset='0' />
           <stop stopColor='#A78BFA' offset='1' />
         </linearGradient>
       </defs>

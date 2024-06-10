@@ -100,7 +100,7 @@ export const Hero = () => {
             <h2 className='title mb-0 text-capitalize'>
               {isAnalytics ? (
                 <>
-                  {`MultiversX Blockchain ${pageName}`}{' '}
+                  {`Midas.X.Blockchain Blockchain ${pageName}`}{' '}
                   <span className='text-neutral-500'> (Beta)</span>
                 </>
               ) : (

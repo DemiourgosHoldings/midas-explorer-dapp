@@ -40,7 +40,7 @@ export const links: NetworkUrlType[] = [
   {
     id: 'testnet',
     name: 'Testnet',
-    url: 'https://testnet-explorer.multiversx.com'
+    url: 'https://explorer.internal.midaschain.ai'
   },
   {
     id: 'devnet',
@@ -64,7 +64,7 @@ export const allApps = (apps?: AppLinksType[]): AppLinksType[] => {
     {
       id: 'explorer',
       name: 'Explorer', // navbar title
-      url: 'http://explorer.multiversx.com'
+      url: 'https://explorer.internal.midaschain.ai'
     },
     {
       id: 'xexchange',

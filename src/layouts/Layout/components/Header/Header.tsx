@@ -2,7 +2,7 @@ import { useState, MouseEvent, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames';
 
-import { ReactComponent as MultiversXLogo } from 'assets/img/logo-full.svg';
+import MultiversXLogo from 'assets/img/logo-full.png';
 import { ReactComponent as MultiversXSymbol } from 'assets/img/symbol.svg';
 import { NetworkLink } from 'components';
 import { useIsMainnet, useGetExplorerTitle } from 'hooks';

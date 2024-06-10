@@ -12,9 +12,9 @@ export const networks: NetworkType[] = [
     theme: 'testnet',
     egldLabel: 'xEGLD',
     walletAddress: 'https://testnet-wallet.multiversx.com',
-    explorerAddress: 'https://testnet-explorer.multiversx.com',
+    explorerAddress: 'https://explorer.internal.midaschain.ai',
     nftExplorerAddress: 'https://testnet.xspotlight.com',
-    apiAddress: 'https://testnet-api.multiversx.com'
+    apiAddress: 'https://api.internal.midaschain.ai'
   }
 ];
 
@@ -25,7 +25,7 @@ export const multiversxApps = allApps([
   },
   {
     id: 'explorer',
-    url: 'http://testnet-explorer.multiversx.com'
+    url: 'https://explorer.internal.midaschain.ai'
   },
   {
     id: 'xspotlight',

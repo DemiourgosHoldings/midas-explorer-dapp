@@ -39,7 +39,7 @@ export const SVG_ICON_PLACEHOLDER_IMAGE_PATH = 'assets/img/default-icon.svg';
 export const DEFAULT_PROVIDER_COLORS: {
   [index: string]: string;
 } = {
-  multiversx: '#23f7dd',
+  multiversx: '#f5b863',
   binance_staking: '#f2b92e',
   justminingfr: '#f99a28',
   validblocks: '#5e20e5',
