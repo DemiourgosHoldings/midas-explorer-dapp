@@ -1,6 +1,6 @@
 # MultiversX Explorer
 
-![explorer.multiversx.com](https://github.com/multiversx/mx-explorer-dapp/blob/main/public/share.jpg)
+![explorer.multiversx.com](https://github.com/multiversx/mx-explorer-dapp/blob/main/public/share.jpg?2)
 
 This project was bootstrapped with [Vite](https://vitejs.dev/guide/).
 

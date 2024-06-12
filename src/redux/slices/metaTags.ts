@@ -4,12 +4,11 @@ import { SHARE_PREFIX } from 'config';
 import { capitalize } from 'helpers';
 import { MetaTagsType } from 'types/metaTags.types';
 
-const DEFAULT_TITLE = `MultiversX${
-  SHARE_PREFIX ? ` ${capitalize(SHARE_PREFIX)}` : ''
-} Explorer`;
+const DEFAULT_TITLE = `MultiversX${SHARE_PREFIX ? ` ${capitalize(SHARE_PREFIX)}` : ''
+  } Explorer`;
 const DEFAULT_DESCRIPTION =
   'A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.';
-const DEFAULT_PREVIEW = `https://${process.env.VITE_APP_SHARE_PREFIX}explorer.multiversx.com/${process.env.VITE_APP_SHARE_PREFIX}share.jpg`;
+const DEFAULT_PREVIEW = `https://${process.env.VITE_APP_SHARE_PREFIX}explorer.multiversx.com/${process.env.VITE_APP_SHARE_PREFIX}share.jpg?2`;
 
 export const getInitialMetaTagsState = (): MetaTagsType => {
   return {
