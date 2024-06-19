@@ -18,7 +18,7 @@ export const useFetchAccountStakingDetails = () => {
     getIdentities
   } = useAdapter();
 
-  const getAccountStakingDetailsOnce = ({ address }: { address: string }) => {
+  const getAccountStakingDetailsOnce = ({ address }: { address: string; }) => {
     if (currentRequest) {
       return currentRequest;
     }
@@ -77,7 +77,7 @@ export const useFetchAccountStakingDetails = () => {
     if (stake) {
       bNtotalStaked = new BigNumber(stake.totalStaked ? stake.totalStaked : 0);
     }
-    if (delegationLegacy) {
+    if (delegationLegacy && Object.keys(delegationLegacy).length > 0) {
       const bNuserActiveStake = new BigNumber(delegationLegacy.userActiveStake);
       const bNuserWaitingStake = new BigNumber(
         delegationLegacy.userWaitingStake
@@ -142,8 +142,8 @@ export const useFetchAccountStakingDetails = () => {
 
     const showStake = Boolean(
       stake &&
-        (stake?.totalStaked !== '0' ||
-          (stake?.unstakedTokens && stake.unstakedTokens.length > 0))
+      (stake?.totalStaked !== '0' ||
+        (stake?.unstakedTokens && stake.unstakedTokens.length > 0))
     );
 
     //const updatedContracts = contracts ? contracts.join(',') : undefined;
